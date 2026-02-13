@@ -1,0 +1,25 @@
+{
+  "name": "ai-image-generator-skill",
+  "version": "1.0.0",
+  "description": "AI image generation skill for Claude Code with multiple provider support",
+  "main": "generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "image-generation",
+    "claude-code",
+    "dall-e",
+    "gemini",
+    "stable-diffusion"
+  ],
+  "author": "Custom Skill",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "bin": {
+    "ai-image-gen": "./generator.js"
+  }
+}
